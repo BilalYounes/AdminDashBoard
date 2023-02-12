@@ -15,7 +15,8 @@ Please note that this app is only the front-end part of the complete Dashboard A
 - Dynamic charts representation using Recharts library
 - User and product information displayed in tables using MUI Table component
 - Material UI components used for styling and improved user experience
-- Dark mode for improved user experience in low-light environments
+- Dark mode implemented using React's `useContext` and `useReducer` APIs for improved user experience in low-light environments
+
 
 ## Usage
 
