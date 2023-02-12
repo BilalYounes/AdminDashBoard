@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+*:link,
+*:visited{
+    text-decoration: none;
+    color: inherit;
+}
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    
+}
+:root{
+    --main-color: teal;
+    
+    --second-color: #CC0000;
+
+    --font : 1.5rem;
+    // --shdow-color: 
+}

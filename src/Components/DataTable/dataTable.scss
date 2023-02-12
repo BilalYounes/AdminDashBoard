@@ -1,0 +1,84 @@
+.datatable{
+    height: 70rem;
+    padding: 2rem;
+.newbutton{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: lightgray;
+  margin-bottom: 1rem;
+  .adduser {
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 3px;
+    color: teal;
+    font-size: 1.6rem;
+  cursor: pointer;
+  font-weight: 200;
+  }
+}
+    .cellWithImg{
+       display: flex;
+       align-items: center;
+       .cellImg{
+        height: 32px;
+        width: 32px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+       }
+    }
+    .cellWithStatus {
+        padding: 5px;
+        border-radius: 5px;
+    
+        &.active {
+          background-color: rgba(0, 128, 0, 0.05);
+          color: green;
+        }
+        &.pending {
+          background-color: rgba(255, 217, 0, 0.05);
+          color: goldenrod;
+        }
+        &.passive {
+          background-color: rgba(255, 0, 0, 0.05);
+          color: crimson;
+        }
+      }
+      .cellAction{
+        transition: all .1s ease-in;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        .viewButton {
+          &:active{
+            transform: scale(0.95);
+
+          }
+            padding: 3px;
+          border: 1px solid rgba(128, 128, 128, 0.37);
+          color: rgba(0, 128, 0, 0.671);
+          cursor: pointer;
+        }
+        .deleteButton{
+          &:active{
+            transform: scale(0.95);
+
+          }
+            padding: 3px;
+          border: 1px solid rgba(128, 128, 128, 0.37);
+          color:rgba(255, 0, 0, 0.568) ;
+          cursor: pointer;
+
+        }
+      }
+}
+.MuiDataGrid-root {
+    font-size: var(--font) !important;
+
+}
+.MuiTablePagination-displayedRows {
+    font-size: var(--font) !important;
+
+}
